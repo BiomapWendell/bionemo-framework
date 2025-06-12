@@ -1,7 +1,7 @@
 # Enable fused attention in transformer engine for speed-up
 # This is a demo run
 # before running this script, make sure bionemo has been installed, see ../sub-packages
-# for BioMapper, use the docker image: docker pull harbor.biomap-int.com/wanghao/bionemo:2.6
+# for BioMappers, use the docker image: docker pull harbor.biomap-int.com/wanghao/bionemo:2.6
 # for other users, use nvcr.io/nvidia/clara/bionemo-framework:2.6
 DATA_DIR=$(download_bionemo_data esm2/testdata_esm2_pretrain:2.0 --source ngc)
 
